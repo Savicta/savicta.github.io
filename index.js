@@ -49,8 +49,6 @@ tombolGoogle.addEventListener(`keyup`, function (event) {
 
 function resetButton() {
   document.getElementsByClassName(`searchTerm`)[0].value = '';
-  const resetOriginalPwd = document.getElementById(`original-password`);
-  const resetEncryptedPwd = document.getElementById(`encrypted-password`);
-  resetOriginalPwd.remove();
-  resetEncryptedPwd.remove();
+  document.getElementById(`original-password`).innerHTML = '';
+  document.getElementById(`encrypted-password`).innerHTML = '';
 }
