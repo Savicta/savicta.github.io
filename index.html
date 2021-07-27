@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- write your code here -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Password Encryption</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Simple Password Encryption</h1>
+    <div class="search">
+      <input type="text" maxlength="19" class="searchTerm" placeholder="Max. 19 Character">
+      <button onclick="encryption()" type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+      </button>
+      <button onclick="resetButton()" type="submit" class="resetButton">
+        <span>Reset</span>
+      </button>
+    </div>
+    <h2>Your Encrypted Password:</h2>
+    <table>
+      <tr>
+        <td>Original Password:</td>
+        <td><span id="original-password"></span></td>
+      </tr>
+      <tr>
+        <td>Encrypted Password:</td>
+        <td><span id="encrypted-password"></span></td>
+      </tr>
+    </table>
+    <h2>How to decrypt it?</h2>
+    <p>Simple! Just use your logic xD.</p>
+    <h2>What is this site for?</h2>
+    <p>For my Hacktiv8 challenge xD</p>
+    <h2>Is this site store your data?</h2>
+    <p>Nah, this site is not store or track anything.</p>
+    <h2>Anything else?</h2>
+    <p>You have an idea? If yes, please just find it on google xD.</p>
+    <h2>Here, you can find anything below.</h2>
+    <div class="search">
+      <input type="text" class="searchTerm" id="googleSearchKeyword" placeholder="Uncle Google Search">
+      <button onclick="uncleGoogle()" type="submit" class="searchButton" id="googleSearch">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+  <footer>
+    <marquee>Phase 0: Index Week 4 | Day#2 (Tue 27 Jul, 2021) | Membuat-Web-Sederhana-dengan-HTML-dan-CSS | Victor Tato Salusu</marquee>
+  </footer>
+  
+  <script src='index.js'></script>
+</body>
+
+</html>
